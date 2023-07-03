@@ -40,7 +40,17 @@ header{
 .O a:hover{
     color: blueviolet;
 }
-
+/* -------language start --------- */
+.lang-menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;   
+    column-gap: 1rem;
+}
+.lang-menu a{
+    text-decoration: none;
+}
+/* -------language end --------- */
 section{
     padding: 100px 200px;
 }
